@@ -3,13 +3,17 @@
 }
 
 .home {
-  background-image: url(./first-portfolio-images/home-background.avif);
+  background-image: url(./first-portfolio-images/home\ bg\ 3rd\ version.avif);
   height: 100vh;
   background-size: cover;
 }
 
 .home h1 {
   text-align: center;
-  padding-top: 5em;
+  padding-top: 8em;
   margin-top: 0;
+}
+
+.home p {
+  text-align: center;
 }
