@@ -1,6 +1,9 @@
 @import url(./navbar.css);
 @import url(./main.css);
 
+:root {
+  --maincolor: #0077b6;
+}
 * {
   box-sizing: border-box;
 }

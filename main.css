@@ -16,4 +16,24 @@
 
 .home p {
   text-align: center;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.home button {
+  margin-top: 2em;
+  padding: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+  border-radius: 5px;
+  background-color: var(--maincolor);
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.home button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
