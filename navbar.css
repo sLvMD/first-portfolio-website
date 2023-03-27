@@ -6,6 +6,8 @@
   align-items: center;
   justify-content: end;
   position: fixed;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.2rem;
 }
 
 .navbar li {
@@ -58,10 +60,15 @@
   border-radius: 50%;
   margin-right: 1em;
   /* transition: 0.3s ease-in-out; */
+  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); */
+  transition: all 0.2s ease;
 }
 
 .logo img:hover {
-  border: 1px solid #e7bc91;
+  /* border: 2px solid var(--maincolor); */
+  transform: translateY(-2px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 /* .logo a {
