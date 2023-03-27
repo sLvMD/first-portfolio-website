@@ -7,7 +7,56 @@
 
 .about h2 {
   margin-top: 0;
+  /* margin-bottom: 9rem; */
   text-align: center;
   padding-top: 3em;
   font-family: var(--secondaryfont);
+}
+
+.underline {
+  height: 5px;
+  width: 50px;
+  background-color: var(--maincolor);
+  position: absolute;
+  left: 48%;
+  border-radius: 5px;
+}
+
+.about {
+  display: block;
+  max-width: 120rem;
+  margin: auto;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+}
+
+.about-info {
+  display: block;
+}
+
+.about-skills {
+  display: block;
+
+  /* position: absolute;
+  right: 50%;
+  top: 0; */
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background: #adb5bd;
+  color: var(--firstgray);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
 }

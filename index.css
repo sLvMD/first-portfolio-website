@@ -6,6 +6,7 @@
 
 :root {
   --maincolor: #00b4d8;
+  --firstgray: #495057;
   --mainfont: "Baloo 2", sans-serif;
   --secondaryfont: "Josefin Sans", sans-serif;
   --thirdfont: "Dosis", sans-serif;
@@ -16,4 +17,13 @@
 body {
   margin: 0;
   font-size: 1.1rem;
+}
+
+h3 {
+  font-family: var(--secondaryfont);
+}
+
+p {
+  font-family: var(--mainfont);
+  color: var(--firstgray);
 }
