@@ -1,12 +1,14 @@
 @import url(./navbar.css);
 @import url(./main.css);
+@import url(./about.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Dosis:wght@700&family=Josefin+Sans:wght@700&family=Manrope&display=swap");
 
 :root {
-  --maincolor: #0077b6;
+  --maincolor: #00b4d8;
   --mainfont: "Baloo 2", sans-serif;
   --secondaryfont: "Josefin Sans", sans-serif;
+  --thirdfont: "Dosis", sans-serif;
 }
 * {
   box-sizing: border-box;

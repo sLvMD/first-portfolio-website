@@ -6,8 +6,9 @@
   align-items: center;
   justify-content: end;
   position: fixed;
-  font-family: "Dosis", sans-serif;
+  font-family: var(--thirdfont);
   font-size: 1.2rem;
+  z-index: 1;
 }
 
 .navbar li {
