@@ -7,7 +7,6 @@
 
 .about h2 {
   margin-top: 0;
-  /* margin-bottom: 9rem; */
   text-align: center;
   padding-top: 3em;
   font-family: var(--secondaryfont);
@@ -24,14 +23,14 @@
 
 .about {
   display: block;
-  max-width: 120rem;
-  margin: auto;
+  /* max-width: 120rem;
+  margin: auto; */
 }
 
 .about-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 5rem;
+  grid-gap: 10rem;
 }
 
 .about-info {
