@@ -46,6 +46,14 @@
   cursor: pointer;
 }
 
+.home button a {
+  text-decoration: none;
+}
+
+.home button a:visited {
+  color: #03071e;
+}
+
 .scroll-downs {
   position: absolute;
   top: 85%;

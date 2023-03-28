@@ -1,6 +1,7 @@
 .about {
   margin-top: 0;
-  background-image: url(./first-portfolio-images/nordwood-themes-nDd3dIkkOLo-unsplash.jpg);
+  /* background-color: var(--bgcolor); */
+  background-image: url(./first-portfolio-images/bg-gray-clean.avif);
   height: 100vh;
   background-size: cover;
 }
@@ -35,9 +36,18 @@
 
 .about-info {
   display: block;
+  margin-left: 3vw;
+  margin-top: 3vh;
 }
 
+/* .about-info span {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bolder;
+} */
+
 .about-skills {
+  margin-top: 3vh;
   display: block;
 
   /* position: absolute;

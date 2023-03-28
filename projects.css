@@ -1,0 +1,21 @@
+.projects {
+  /* margin-top: 0; */
+  background-color: var(--bgcolor);
+  height: 100vh;
+}
+
+.projects h2 {
+  margin-top: 0;
+  text-align: center;
+  padding-top: 3em;
+  font-family: var(--secondaryfont);
+}
+
+.underline2 {
+  height: 5px;
+  width: 35px;
+  background-color: var(--maincolor);
+  position: absolute;
+  left: 48%;
+  border-radius: 5px;
+}
