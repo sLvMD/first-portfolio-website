@@ -31,7 +31,7 @@
 .about-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10rem;
+  grid-gap: 3rem;
 }
 
 .about-info {
@@ -63,8 +63,8 @@
   background: #adb5bd;
   color: var(--firstgray);
   padding: 1rem;
-  margin-bottom: 1.5rem;
-  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
   width: 100px;
   border-radius: 5px;
   text-align: center;

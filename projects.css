@@ -1,7 +1,7 @@
 .projects {
   /* margin-top: 0; */
   background-color: var(--bgcolor);
-  height: 100vh;
+  height: 60vh;
 }
 
 .projects h2 {
@@ -18,4 +18,39 @@
   position: absolute;
   left: 48%;
   border-radius: 5px;
+}
+
+.projects {
+  display: block;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 5rem;
+  margin-top: 10vh;
+}
+.projects-photo {
+  margin-left: 5vw;
+  /* display: block; */
+  /* overflow: hidden; */
+  /* display: flex; */
+  /* margin-top: 10vh; */
+}
+
+.projects-img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  object-fit: cover;
+}
+
+.projects-info {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  /* margin-top: 10vh; */
+  margin-right: 5vw;
 }

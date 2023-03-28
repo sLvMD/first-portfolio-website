@@ -1,0 +1,113 @@
+/* For screens smaller than 600px */
+@media (max-width: 650px) {
+  .navbar {
+    height: 3em;
+    font-size: 1rem;
+  }
+
+  .navbar ul li {
+    padding: 0.5em;
+    padding-right: 2em;
+    font-weight: normal;
+  }
+
+  .navbar ul li:nth-of-type(1) {
+    padding-left: 2em;
+    font-size: 1rem;
+  }
+
+  .logo img {
+    width: 2em;
+    height: 2em;
+    margin-right: 0.5em;
+  }
+  .home h1 {
+    font-size: 2rem;
+  }
+  .home p {
+    font-size: 1rem;
+  }
+  .home button {
+    font-size: 1rem;
+    padding: 0.6em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+
+  .about h2 {
+    padding-top: 2em;
+    font-size: 1.5rem;
+  }
+
+  .underline {
+    width: 30px;
+    left: 46%;
+    height: 3px;
+    border-radius: 3px;
+  }
+
+  .about-container {
+    display: block;
+  }
+
+  .about-info {
+    margin-left: 0;
+    margin-top: 2em;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+
+  .about-skills {
+    margin-top: 2em;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+
+  .skill {
+    margin-right: 0.5rem;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+
+  .projects {
+    height: auto;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+  }
+
+  .projects h2 {
+    font-size: 2rem;
+    padding-top: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  .underline2 {
+    left: 46%;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+  }
+
+  .projects-photo {
+    margin-left: 4vw;
+    margin-right: 3vw;
+    text-align: center;
+    /* margin-bottom: 3vh; */
+  }
+
+  .projects-img {
+    max-width: 90%;
+  }
+
+  .projects-info {
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 3vh;
+    margin-top: -4em;
+  }
+}
