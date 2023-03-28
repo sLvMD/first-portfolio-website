@@ -33,3 +33,10 @@
 .contact h3 {
   /* padding-left: 5vw; */
 }
+
+.footer p {
+  color: var(--bgcolor);
+  font-family: var(--mainfont);
+  text-align: end;
+  padding-right: 2em;
+}
